@@ -1,6 +1,6 @@
 
 void main(){
-  String age, myName = "Mostafa Kamel";
+  String myName = "Mostafa Kamel";
 
   print('My name is: $myName');
 }
