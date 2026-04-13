@@ -3,7 +3,7 @@
 * date: 13/4/2026
 *First Task: write a program to print my
 * name in the terminal and push it to a repo
-* 2- Write a program to print Hello I am “John Doe” and Hello I’am “John Doe” with single and double quotes.
+* 2- Write a program to print Hello I am “John Doe” and Hello I’m “John Doe” with single and double quotes.
 * 3.Declare constant type of int set value 7.
 * 4.Write a program in Dart that finds simple interest. Formula= (p * t * r) / 100
   ●	Create GitHub repo
@@ -20,8 +20,8 @@ void main(){
   myName();
   printANameWithSingleOrDoubleQuotation();
   declareConstantTypeOfInt();
-  double theSimpleInt = simpleinterest(6000,10,15);
-  print("the simple interst is: "+ theSimpleInt.toString());
+  double theSimpleInt = simpleInterest();
+  print("the simple interest is: "+ theSimpleInt.toString());
 
 }
 
@@ -64,7 +64,8 @@ void declareConstantTypeOfInt(){
 //4.Write a program in Dart that finds simple interest.
 // Formula= (p * t * r) / 100
 
-double simpleinterest (int num1,num2,num3) {
+double simpleInterest () {
+  int num1,num2,num3;
   print("To calculate the simple interset please inter the:");
   print('Principal Amount: ');
   var principalAmount = stdin.readLineSync();
